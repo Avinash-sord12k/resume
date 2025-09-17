@@ -1,0 +1,29 @@
+Full Stack Engineer . Mar 2025 - Present · 7 mos
+thinkinteraction.in · Full-time . Remote
+
+Microfrontend Development (RequireJS + React + Vite):
+  Designed and developed a microfrontend application using RequireJS and React (Vite).
+  Built custom features such as:
+    Cross-widget drag-and-drop functionality.
+    Messaging and notification system.
+    Inter-widget communication for seamless interactions.
+  Added unit tests and enforced TypeScript across the codebase, reducing production bugs and improving maintainability.
+
+Backend Development (NestJS + TypeScript):
+  Built and maintained the backend system using NestJS and TypeScript.
+  Wrote unit and integration tests to ensure reliability and prevent regressions.
+  Set up development and production environments.
+  Focused on performance, code quality, and reusability while implementing features.
+
+Frontend Development (React-Remix):
+  Delivered a performant Remix-based frontend with both SSR and CSR, reducing time-to-first-byte and boosting SEO scores.
+  Implemented efficient data fetching and caching, keeping pages up-to-date with minimal re-renders.
+  Used Storybook to create and test components in isolation, improving collaboration with designers and QA.
+
+Project Architecture & Tooling:
+  Set up a monorepo with multiple packages to organize code, reuse shared logic, and make development easier.
+
+Deployment Automation:
+  Automated build and deployment pipelines for GCP VM instances using Bash, SSH, and Docker..
+  Introduced multi-environment workflows (dev/staging/prod), reducing manual deployment time by >60% and minimizing production downtime.
+  Streamlined builds to cut cloud costs by 20%.

@@ -1,0 +1,24 @@
+EDUCATION
+Dr. Akhilesh Das Gupta Institute of Technology, Delhi, India
+Bachelor of Technology (B.Tech) in Information Technology (IT) 2022 – 2026
+
+
+SKILLS
+Programming: C, C++, Python, JavaScript, TypeScript, Bash
+Frameworks: Next js, Nest Js, FastAPI, Flask, Django
+Tools: MySQL, MongoDB, GCP, AWS, Git, Docker, Linux
+AI: MCP
+
+
+PROJECTS
+Imaginary Storage | A cloud-based storage platform for users to store and share their files on the cloud.
+• An Interactive web application for users to upload and share files, with features like file preview, file sharing, and file deletion.
+[https://github.com/Jhaempyre/imaginestorage]
+
+MeloSynthiaAI | Generating AI-generated music compositions. (award winner)
+• used to generate music of differnt genere and styles.
+[https://github.com/AYUSHMAN0503/MeloSynthiaAI]
+
+Neural Network Reinforcement Learning with Genetic Algorithms | A reinforcement learning algorithm for training neural networks.
+• Developed a genetic algorithm-based reinforcement learning algorithm for training neural networks using javascript.
+[https://github.com/Avinash-sord12k/NN-reinforcement-with-GA]

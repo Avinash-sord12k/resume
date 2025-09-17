@@ -1,0 +1,137 @@
+%-------------------------
+% Resume in Latex
+% Author : Avinash Kumar Jha
+% Based off of: https://github.com/abhishekarya1/resume-latex
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{setspace}
+\setlength{\parskip}{0.5em}
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\input{glyphtounicode}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage[sfdefault]{roboto}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+\addtolength{\oddsidemargin}{-0.75in}
+\addtolength{\evensidemargin}{-0.75in}
+\addtolength{\textwidth}{1.5in}
+\addtolength{\topmargin}{-.75in}
+\addtolength{\textheight}{1.5in}
+
+\urlstyle{same}
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+\linespread{1.05}
+\setlength{\itemsep}{0.2em}
+
+\titleformat{\section}{\vspace{-8pt}\scshape\raggedright\large}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+\pdfgentounicode=1
+
+\newcommand{\resumeItem}[1]{\item\fontsize{8.6}{10.32}\selectfont{#1 \vspace{-2pt}}}
+\newcommand{\resumeSubheading}[4]{\vspace{-2pt}\item\begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}\textbf{#1} & {\fontsize{10}{12}\selectfont #2} \\\vspace{2pt}\textit{\small#3} & \textit{\small #4} \\\end{tabular*}\vspace{-7pt}}
+\newcommand{\resumeProjectHeading}[2]{\item\begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}\small#1 & #2 \\\end{tabular*}\vspace{-7pt}}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]} 
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}[leftmargin=1.2em]}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+\begin{document}
+
+\begin{center}
+    \textbf{\fontsize{24}{28.8}\selectfont \scshape Avinash Kumar Jha} \\ \vspace{8pt}
+    \fontsize{10}{12}{\selectfont
+    \href{tel:+91-9811525897}{\underline{+91-9811525897}} \hspace{0.5em}$|$\hspace{0.5em}
+    \href{mailto:avinash2002a@gmail.com}{\underline{avinash2002a@gmail.com}} \hspace{0.5em}$|$\hspace{0.5em} 
+    \href{https://avinashjha.space}{\underline{avinashjha.space}} \hspace{0.5em}$|$\hspace{0.5em}
+    \href{https://linkedin.com/in/avinash-jha-201459257}{\underline{linkedin.com/in/avinash-jha-201459257}}
+    }
+\end{center}
+
+\section{Experience}
+\resumeSubHeadingListStart
+
+\resumeSubheading{Full Stack Engineer}{Mar 2025 -- Present}{thinkinteraction.in}{Remote}
+\resumeItemListStart
+\resumeItem{Designed and implemented a microfrontend architecture using RequireJS, React, and Vite, enabling modular applications with cross-widget drag-and-drop, notifications, and inter-widget communication.}
+\resumeItem{Built scalable APIs with NestJS + TypeScript, integrating automated tests to prevent regressions and improve production reliability.}
+\resumeItem{Delivered a high-performance Remix frontend (SSR + CSR), improving TTFB, SEO, and reducing redundant re-renders via optimized caching and state management.}
+\resumeItem{Introduced a monorepo with shared logic packages, streamlining development and accelerating feature rollout.}
+\resumeItem{Automated GCP VM deployments using Bash, Docker, and SSH, cutting manual deployment time by 60\% and reducing costs by 20\%.}
+\resumeItemListEnd
+
+\resumeSubheading{Full Stack Engineer}{Jan 2024 -- Mar 2025}{Stackkaroo}{Remote}
+\resumeItemListStart
+\resumeItem{Developed full-stack projects across diverse tech stacks (Next.js, MERN, Django-React, Flask-Jinja, PHP) adapting quickly to client requirements.}
+\resumeItem{Built a WebGI-based 3D jewelry configurator boosting engagement and conversions.}
+\resumeItem{Created a JS-based Fixed Deposit calculator to compare RBI rates, improving user decision-making.}
+\resumeItem{Reviewed code, coordinated with other developers, and enforced code quality standards.}
+\resumeItem{Built interactive 3D room tours using React Three Fiber, Drei, and Three.js for real estate and interior design clients.}
+\resumeItemListEnd
+
+\resumeSubheading{Frontend Developer (Intern)}{Aug 2023 -- Jan 2024}{Stackkaroo}{Remote}
+\resumeItemListStart
+\resumeItem{Built a custom static website for a bank foundation with GSAP animations.}
+\resumeItem{Integrated Strapi and Concrete CMS to streamline content workflows.}
+\resumeItemListEnd
+
+\resumeSubHeadingListEnd
+
+\section{Education}
+\resumeSubHeadingListStart
+\resumeSubheading{Dr. Akhilesh Das Gupta Institute of Technology}{2022 -- 2026}{Bachelor of Technology (B.Tech), Information Technology}{Delhi, India}
+\resumeSubHeadingListEnd
+
+\section{Skills}
+\begin{itemize}[leftmargin=0.15in, label={}]
+\item{\textbf{Programming:} JavaScript, TypeScript, Python, Bash, C, C++, GLSL \\
+\textbf{Frameworks:} Next.js, NestJS, Remix.js, Redux.js, Three.js, TypeORM, Mongoose, Prisma, Vite, FastAPI, Flask, Django \\
+\textbf{Tools:} Git, Docker, Linux, GCP, AWS, GitHub Actions, MySQL, MongoDB, PostgreSQL \\
+\textbf{AI:} MCP, Acli}
+\end{itemize}
+
+\section{Projects}
+\resumeSubHeadingListStart
+
+\resumeProjectHeading{\textbf{Imaginary Storage} | Cloud Storage Platform}{\href{https://github.com/Jhaempyre/imaginestorage}{\underline{GitHub}}}
+\resumeItemListStart
+\resumeItem{Designed and built a provider-agnostic cloud storage platform where users have full control over file upload, preview, sharing, and deletion.}
+\resumeItem{Integrated AWS and GCP options for storage backends, giving users flexibility and cost efficiency.}
+\resumeItem{Developed a highly interactive and responsive web UI to deliver a smooth user experience.}
+\resumeItemListEnd
+
+\resumeProjectHeading{\textbf{MeloSynthiaAI} | AI-powered Music Composition (Hackathon Award Winner)}{\href{https://github.com/AYUSHMAN0503/MeloSynthiaAI}{\underline{GitHub}}}
+\resumeItemListStart
+\resumeItem{Built an ML-driven system capable of generating music based on genre, instruments, and user prompts.}
+\resumeItem{Created a pipeline to package and sell generated tracks as digital artifacts, demonstrating real-world product potential.}
+\resumeItemListEnd
+
+\resumeProjectHeading{\textbf{Neural Network RL with Genetic Algorithms} | Evolutionary Neural Network Trainer}{\href{https://github.com/Avinash-sord12k/NN-reinforcement-with-GA}{\underline{GitHub}}}
+\resumeItemListStart
+\resumeItem{Implemented a reinforcement learning simulation where multiple cars evolve generation by generation to navigate obstacles.}
+\resumeItem{Developed a custom neural network editor with configurable layers, activation functions, and nodes.}
+\resumeItem{Used genetic crossover and mutation techniques to improve each generation's performance, achieving emergent intelligent driving behavior.}
+\resumeItemListEnd
+
+\resumeSubHeadingListEnd
+
+
+\end{document}

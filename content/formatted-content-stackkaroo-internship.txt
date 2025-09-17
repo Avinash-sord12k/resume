@@ -1,0 +1,7 @@
+Frontend Developer
+Internship
+Aug 2023 - Jan 2024 · 6 mos
+
+Built a custom-designed static website for a leading bank foundation with GSAP animations, enhancing user experience and visual appeal.
+
+Integrated and customized headless CMS platforms (Strapi, Concrete CMS) to streamline content workflows.

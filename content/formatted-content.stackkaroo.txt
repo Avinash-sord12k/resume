@@ -1,0 +1,16 @@
+Stackkaroo · Full Stack Engineer
+Jan 2024 – Mar 2025 · 1 yr 3 mos · Remote
+
+Delivered full-stack projects across diverse stacks (Next.js, MERN, Django-React, Flask-Jinja, PHP), adapting quickly to different client needs and tech environments.
+
+Created a WebGI-based 3D jewelry configurator for an e-commerce platform, enabling real-time visualization and customization of products, boosting customer conversion rates.
+
+Automated deployment pipelines on DigitalOcean droplets with Bash, cutting deployment time and minimizing manual errors.
+
+Architected and built a JavaScript-based Fixed Deposit interest calculator, simplifying RBI rate comparisons and improving user financial decision-making.
+
+Coordinated with multiple developers, conducted code reviews, and enforced code quality standards across projects.
+
+Developed an interactive 3D room tour using React Three Fiber, Drei, and Three.js, increasing user engagement for interior design clients.
+
+Collaborated with clients throughout project lifecycles, ensuring smooth handoffs from development to production.
